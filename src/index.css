@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.side{
+   
+   
+    background-position:bottom;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-image: url("./assets/imgs/bg-sidebar-desktop.svg");
+    
+}
+
+
+
+
+input::placeholder{
+padding-left: 5px;
+}
+
+
+    
+
