@@ -231,7 +231,7 @@ border-white rounded-full   '>
 
 
         </div>
-<div className='flex flex-shrink gap-10 items-center justify-center  w-full  flex-col'>
+<div className='flex flex-shrink gap-5 items-center justify-center  w-full  flex-col'>
 
 
         <div>

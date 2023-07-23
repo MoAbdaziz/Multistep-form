@@ -10,10 +10,10 @@ function index() {
   return (
     <div>
 <Routes>
-<Route path='/'   element={<SideBar />} />
-<Route path='plan'   element={<Plan />} />
-<Route path='addons'   element={<Addons />} />
-<Route path='summary'   element={<Summary />} />
+<Route path='Multistep-form'   element={<SideBar />} />
+<Route path='/plan'   element={<Plan />} />
+<Route path='/addons'   element={<Addons />} />
+<Route path='/summary'   element={<Summary />} />
 <Route path='/final'  element={<Final />} />
 
 

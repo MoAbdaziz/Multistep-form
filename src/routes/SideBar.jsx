@@ -56,7 +56,7 @@ return
 setPhone("")
 
 
-  navigate('plan')
+  navigate('/plan')
 
 
 
