@@ -219,7 +219,7 @@ border-white rounded-full   '>
 
 <div className='flex flex-col gap-5'>
 
-  <div className='flex bg-gray-50 rounded-lg w-[450px] border-[#02295A] py-3 justify-between border'>
+  <div className='flex bg-gray-50 rounded-lg w-[350px] md:w-[450px] border-[#02295A] py-3 justify-between border'>
     <section className='flex gap-5'>
 <div className='flex px-5 justify-cen
 ter items-center'><input defaultChecked={checkvalue} onChange={checked}
@@ -242,7 +242,7 @@ name='service' ref={online_ref} type="checkbox" /></div>
 
 
 
-  <div className='flex bg-gray-50 rounded-lg w-[450px] border-[#02295A] py-3 justify-between border'>
+  <div className='flex bg-gray-50 rounded-lg w-[350px] md:w-[450px] border-[#02295A] py-3 justify-between border'>
     <section className='flex gap-5'>
 <div className='flex px-5 just
 ify-center items-center'><input defaultChecked={checkvalue} ref={storage_ref} onChange={checked}  name='service' type="checkbox" /></div>
@@ -263,7 +263,7 @@ ify-center items-center'><input defaultChecked={checkvalue} ref={storage_ref} on
 
 
 
-  <div className='flex bg-gray-50 rounded-lg w-[450px] border-[#02295A] py-3 justify-between border'>
+  <div className='flex bg-gray-50 rounded-lg w-[350px] md:w-[450px] border-[#02295A] py-3 justify-between border'>
     <section className='flex gap-5'>
 <div className='flex px-5 
 justify-center items-c
@@ -286,7 +286,7 @@ enter'><input ref={profile_ref} defaultChecked={checkvalue} onChange={checked} n
 
 
 </div>
-<div className='w-full  flex mt-20 justify-between'>
+<div className='w-full  justify-around flex mt-20 md:justify-between'>
 
   <button onClick={()=>{navigate("/plan")}} className='text-gray-500'>Go Back</button>
   <button onClick={()=>{navigate("/summary")}} className='bg-[#02295A] text-white px-4 py-2  rounded'>Next Step</button>
