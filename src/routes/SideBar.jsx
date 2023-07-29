@@ -24,7 +24,7 @@ return
 }
 
 
-if(name_ref.current.value.trim().length <6){
+if(name_ref.current.value.trim(" ").length <6){
   setName("Username shouldn't be less than 6 letters")
 
 
@@ -211,7 +211,7 @@ border-white rounded-full   '>
 <input ref={mobile_ref} className='border mobile rounded-lg flex items-center justify-center flex-grow-1 w-[90%] mt-2 py-2' type="text" name="mobile" id="mobile" placeholder=' example: 0100000000' />
 
 </div>
-<div className='flex items-center justify-center md:items-end mt-[80px] ml-10 w-full md:justify-end'>
+<div className='flex items-center justify-center md:items-end mt-[50px] md:mt-[80px] ml-10 w-full md:justify-end'>
 <button onClick={()=>verifyit()} className='rounded text-white px-4   py-2 bg-blue-800'>
   
   Next Step

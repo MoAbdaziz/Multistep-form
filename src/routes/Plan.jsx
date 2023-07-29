@@ -58,30 +58,30 @@ const selectplan =(e)=>{
 //   }
 
 switch ( e.target){
-  case arc_ref.current : arc_ref.current.classList.add("border-blue-900")
-  adv_ref.current.classList.remove("border-blue-900")
-  pro_ref.current.classList.remove("border-blue-900")
+  case arc_ref.current : arc_ref.current.classList.add("border-red-900")
+  adv_ref.current.classList.remove("border-red-900")
+  pro_ref.current.classList.remove("border-red-900")
   dispatch(choosePlan("Arcade"))
   setPlan("Arcade")
 
   break;
 
-  case adv_ref.current : arc_ref.current.classList.remove("border-blue-900")
-  adv_ref.current.classList.add("border-blue-900")
-  pro_ref.current.classList.remove("border-blue-900")
+  case adv_ref.current : arc_ref.current.classList.remove("border-red-900")
+  adv_ref.current.classList.add("border-red-900")
+  pro_ref.current.classList.remove("border-red-900")
   dispatch(choosePlan("Advance"))
   setPlan("Advance")
   break;
-  case pro_ref.current : arc_ref.current.classList.remove("border-blue-900")
-  adv_ref.current.classList.remove("border-blue-900")
-  pro_ref.current.classList.add("border-blue-900")
+  case pro_ref.current : arc_ref.current.classList.remove("border-red-900")
+  adv_ref.current.classList.remove("border-red-900")
+  pro_ref.current.classList.add("border-red-900")
   dispatch(choosePlan("Pro"))
   setPlan("Pro")
   break;
 
-  default :arc_ref.current.classList.remove("border-blue-900")
-  adv_ref.current.classList.remove("border-blue-900")
-  pro_ref.current.classList.remove("border-blue-900")
+  default :arc_ref.current.classList.remove("border-red-900")
+  adv_ref.current.classList.remove("border-red-900")
+  pro_ref.current.classList.remove("border-red-900")
   dispatch(choosePlan(null))
   setPlan("")
   }
@@ -129,7 +129,7 @@ if (plan != ""){
 
 
 
-    <div className='h-full w-full gap-20 py-2 flex'>
+    <div className='h-full  w-full gap-20 py-2 flex'>
 
 
 <div className='side  absolute left-0 w-full md:hidden top-0 z-[0] h-[20vh]'>
@@ -231,7 +231,7 @@ border-white rounded-full   '>
 
 
         </div>
-<div className='flex flex-shrink gap-5 items-center justify-center  w-full  flex-col'>
+<div className='flex flex-shrink gap-5  items-center justify-center  w-full  flex-col'>
 
 
         <div>
